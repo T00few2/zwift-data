@@ -681,185 +681,249 @@ export const routes: Readonly<
 };
 import { distance as segments0 } from "./segments/23rd-st.js";
 import { distance as segments1 } from "./segments/23rd-st-rev.js";
-import { distance as segments2 } from "./segments/alley-sprint.js";
-import { distance as segments3 } from "./segments/alley-sprint-rev.js";
-import { distance as segments4 } from "./segments/alpe-du-zwift.js";
-import { distance as segments5 } from "./segments/aqueduc-kom.js";
-import { distance as segments6 } from "./segments/aqueduc-kom-rev.js";
-import { distance as segments7 } from "./segments/ballon-sprint-rev.js";
-import { distance as segments8 } from "./segments/boardwalk-sprint-rev.js";
-import { distance as segments9 } from "./segments/bologna-tt.js";
-import { distance as segments10 } from "./segments/box-hill.js";
-import { distance as segments11 } from "./segments/breakaway-brae.js";
-import { distance as segments12 } from "./segments/breakaway-brae-rev.js";
-import { distance as segments13 } from "./segments/broad-st.js";
-import { distance as segments14 } from "./segments/brooklyn-bridge-kom.js";
-import { distance as segments15 } from "./segments/castle-kom.js";
-import { distance as segments16 } from "./segments/center-sprint.js";
-import { distance as segments17 } from "./segments/center-sprint-rev.js";
-import { distance as segments18 } from "./segments/central-park-loop-rev.js";
-import { distance as segments19 } from "./segments/champs-elysees.js";
-import { distance as segments20 } from "./segments/champs-elysees-rev.js";
-import { distance as segments21 } from "./segments/crit-city.js";
-import { distance as segments22 } from "./segments/crit-city-rev.js";
-import { distance as segments23 } from "./segments/eglise-sprint.js";
-import { distance as segments24 } from "./segments/epic-kom.js";
-import { distance as segments25 } from "./segments/epic-kom-rev.js";
-import { distance as segments26 } from "./segments/fox-hill.js";
-import { distance as segments27 } from "./segments/fuego-flats.js";
-import { distance as segments28 } from "./segments/fuego-flats-rev.js";
-import { distance as segments29 } from "./segments/hilly-loop.js";
-import { distance as segments30 } from "./segments/hilly-loop-rev.js";
-import { distance as segments31 } from "./segments/innsbruck-kom.js";
-import { distance as segments32 } from "./segments/innsbruck-kom-rev.js";
-import { distance as segments33 } from "./segments/innsbruck-uci-lap.js";
-import { distance as segments34 } from "./segments/itza-kom.js";
-import { distance as segments35 } from "./segments/jarvis-kom.js";
-import { distance as segments36 } from "./segments/jarvis-kom-rev.js";
-import { distance as segments37 } from "./segments/jarvis-lap.js";
-import { distance as segments38 } from "./segments/jarvis-lap-rev.js";
-import { distance as segments39 } from "./segments/jarvis-sprint.js";
-import { distance as segments40 } from "./segments/jarvis-sprint-rev.js";
-import { distance as segments41 } from "./segments/jungle-loop.js";
-import { distance as segments42 } from "./segments/jungle-loop-rev.js";
-import { distance as segments43 } from "./segments/keith-hill.js";
-import { distance as segments44 } from "./segments/leith-hill.js";
-import { distance as segments45 } from "./segments/london-loop.js";
-import { distance as segments46 } from "./segments/london-sprint.js";
-import { distance as segments47 } from "./segments/london-sprint-rev.js";
-import { distance as segments48 } from "./segments/lutece-sprint.js";
-import { distance as segments49 } from "./segments/lutece-sprint-rev.js";
-import { distance as segments50 } from "./segments/manhattan-sprint.js";
-import { distance as segments51 } from "./segments/manhattan-sprint-rev.js";
-import { distance as segments52 } from "./segments/marina-sprint.js";
-import { distance as segments53 } from "./segments/mayan-mountainside-kom.js";
-import { distance as segments54 } from "./segments/monceau-sprint.js";
-import { distance as segments55 } from "./segments/montmartre-kom.js";
-import { distance as segments56 } from "./segments/new-york-kom.js";
-import { distance as segments57 } from "./segments/new-york-kom-rev.js";
-import { distance as segments58 } from "./segments/petit-kom.js";
-import { distance as segments59 } from "./segments/radio-tower-kom.js";
-import { distance as segments60 } from "./segments/railway-sprint.js";
-import { distance as segments61 } from "./segments/richmond-kom.js";
-import { distance as segments62 } from "./segments/richmond-kom-rev.js";
-import { distance as segments63 } from "./segments/richmond-sprint.js";
-import { distance as segments64 } from "./segments/richmond-uci-course.js";
-import { distance as segments65 } from "./segments/rooftop-kom.js";
-import { distance as segments66 } from "./segments/sgurr-summit-north.js";
-import { distance as segments67 } from "./segments/sgurr-summit-south.js";
-import { distance as segments68 } from "./segments/tchou-tchou-sprint.js";
-import { distance as segments69 } from "./segments/temple-kom-from-castle-side.js";
-import { distance as segments70 } from "./segments/temple-kom-from-fishing-village-side.js";
-import { distance as segments71 } from "./segments/the-grade-kom.js";
-import { distance as segments72 } from "./segments/the-hill-kom.js";
-import { distance as segments73 } from "./segments/the-peristyle-sprint.js";
-import { distance as segments74 } from "./segments/the-peristyle-sprint-rev.js";
-import { distance as segments75 } from "./segments/tidepool-sprint-rev.js";
-import { distance as segments76 } from "./segments/titans-grove-kom.js";
-import { distance as segments77 } from "./segments/titans-grove-kom-rev.js";
-import { distance as segments78 } from "./segments/tower-sprint.js";
-import { distance as segments79 } from "./segments/ventoux-kom.js";
-import { distance as segments80 } from "./segments/volcano-circuit.js";
-import { distance as segments81 } from "./segments/volcano-circuit-rev.js";
-import { distance as segments82 } from "./segments/volcano-kom.js";
-import { distance as segments83 } from "./segments/watopia-sprint.js";
-import { distance as segments84 } from "./segments/woodland-sprint.js";
-import { distance as segments85 } from "./segments/yorkshire-kom.js";
-import { distance as segments86 } from "./segments/yorkshire-kom-rev.js";
-import { distance as segments87 } from "./segments/yorkshire-sprint-rev.js";
-import { distance as segments88 } from "./segments/zwift-kom.js";
-import { distance as segments89 } from "./segments/zwift-kom-rev.js";
+import { distance as segments2 } from "./segments/acropolis-sprint.js";
+import { distance as segments3 } from "./segments/acropolis-sprint-rev.js";
+import { distance as segments4 } from "./segments/alley-sprint.js";
+import { distance as segments5 } from "./segments/alley-sprint-rev.js";
+import { distance as segments6 } from "./segments/alpe-du-zwift.js";
+import { distance as segments7 } from "./segments/aqueduc-kom.js";
+import { distance as segments8 } from "./segments/aqueduc-kom-rev.js";
+import { distance as segments9 } from "./segments/ballon-sprint.js";
+import { distance as segments10 } from "./segments/ballon-sprint-rev.js";
+import { distance as segments11 } from "./segments/boardwalk-sprint.js";
+import { distance as segments12 } from "./segments/boardwalk-sprint-rev.js";
+import { distance as segments13 } from "./segments/bologna-tt.js";
+import { distance as segments14 } from "./segments/box-hill.js";
+import { distance as segments15 } from "./segments/breakaway-brae.js";
+import { distance as segments16 } from "./segments/breakaway-brae-rev.js";
+import { distance as segments17 } from "./segments/broad-st.js";
+import { distance as segments18 } from "./segments/brooklyn-bridge-kom.js";
+import { distance as segments19 } from "./segments/castle-kom.js";
+import { distance as segments20 } from "./segments/castle-park-sprint.js";
+import { distance as segments21 } from "./segments/castle-park-sprint-rev.js";
+import { distance as segments22 } from "./segments/center-sprint.js";
+import { distance as segments23 } from "./segments/center-sprint-rev.js";
+import { distance as segments24 } from "./segments/central-park-loop-rev.js";
+import { distance as segments25 } from "./segments/champions-sprint.js";
+import { distance as segments26 } from "./segments/champs-elysees.js";
+import { distance as segments27 } from "./segments/champs-elysees-rev.js";
+import { distance as segments28 } from "./segments/country-sprint.js";
+import { distance as segments29 } from "./segments/crit-city.js";
+import { distance as segments30 } from "./segments/crit-city-rev.js";
+import { distance as segments31 } from "./segments/eglise-sprint.js";
+import { distance as segments32 } from "./segments/epic-kom.js";
+import { distance as segments33 } from "./segments/epic-kom-rev.js";
+import { distance as segments34 } from "./segments/fox-hill.js";
+import { distance as segments35 } from "./segments/fuego-flats.js";
+import { distance as segments36 } from "./segments/fuego-flats-rev.js";
+import { distance as segments37 } from "./segments/hilly-loop.js";
+import { distance as segments38 } from "./segments/hilly-loop-rev.js";
+import { distance as segments39 } from "./segments/innsbruck-kom.js";
+import { distance as segments40 } from "./segments/innsbruck-kom-rev.js";
+import { distance as segments41 } from "./segments/innsbruck-sprint.js";
+import { distance as segments42 } from "./segments/innsbruck-sprint-rev.js";
+import { distance as segments43 } from "./segments/innsbruck-uci-lap.js";
+import { distance as segments44 } from "./segments/itza-kom.js";
+import { distance as segments45 } from "./segments/jarvis-kom.js";
+import { distance as segments46 } from "./segments/jarvis-kom-rev.js";
+import { distance as segments47 } from "./segments/jarvis-lap.js";
+import { distance as segments48 } from "./segments/jarvis-lap-rev.js";
+import { distance as segments49 } from "./segments/jarvis-sprint.js";
+import { distance as segments50 } from "./segments/jarvis-sprint-rev.js";
+import { distance as segments51 } from "./segments/jungle-loop.js";
+import { distance as segments52 } from "./segments/jungle-loop-rev.js";
+import { distance as segments53 } from "./segments/keith-hill.js";
+import { distance as segments54 } from "./segments/leith-hill.js";
+import { distance as segments55 } from "./segments/london-loop.js";
+import { distance as segments56 } from "./segments/london-sprint.js";
+import { distance as segments57 } from "./segments/london-sprint-rev.js";
+import { distance as segments58 } from "./segments/lutece-sprint.js";
+import { distance as segments59 } from "./segments/lutece-sprint-rev.js";
+import { distance as segments60 } from "./segments/manhattan-sprint.js";
+import { distance as segments61 } from "./segments/manhattan-sprint-rev.js";
+import { distance as segments62 } from "./segments/marina-sprint.js";
+import { distance as segments63 } from "./segments/marina-sprint-rev.js";
+import { distance as segments64 } from "./segments/mayan-mountainside-kom.js";
+import { distance as segments65 } from "./segments/monceau-sprint.js";
+import { distance as segments66 } from "./segments/montmartre-kom.js";
+import { distance as segments67 } from "./segments/new-york-kom.js";
+import { distance as segments68 } from "./segments/new-york-kom-rev.js";
+import { distance as segments69 } from "./segments/new-york-sprint.js";
+import { distance as segments70 } from "./segments/new-york-sprint-rev.js";
+import { distance as segments71 } from "./segments/pave-sprint.js";
+import { distance as segments72 } from "./segments/pave-sprint-rev.js";
+import { distance as segments73 } from "./segments/petit-kom.js";
+import { distance as segments74 } from "./segments/prime.js";
+import { distance as segments75 } from "./segments/prime-rev.js";
+import { distance as segments76 } from "./segments/radio-tower-kom.js";
+import { distance as segments77 } from "./segments/railway-sprint.js";
+import { distance as segments78 } from "./segments/richmond-kom.js";
+import { distance as segments79 } from "./segments/richmond-kom-rev.js";
+import { distance as segments80 } from "./segments/richmond-sprint.js";
+import { distance as segments81 } from "./segments/richmond-sprint-rev.js";
+import { distance as segments82 } from "./segments/richmond-uci-course.js";
+import { distance as segments83 } from "./segments/rooftop-kom.js";
+import { distance as segments84 } from "./segments/sasquatch-sprint.js";
+import { distance as segments85 } from "./segments/sasquatch-sprint-rev.js";
+import { distance as segments86 } from "./segments/sgurr-summit-north.js";
+import { distance as segments87 } from "./segments/sgurr-summit-south.js";
+import { distance as segments88 } from "./segments/shisa-sprint.js";
+import { distance as segments89 } from "./segments/shisa-sprint-rev.js";
+import { distance as segments90 } from "./segments/stoneway-sprint.js";
+import { distance as segments91 } from "./segments/stoneway-sprint-rev.js";
+import { distance as segments92 } from "./segments/tchou-tchou-sprint.js";
+import { distance as segments93 } from "./segments/temple-kom-from-castle-side.js";
+import { distance as segments94 } from "./segments/temple-kom-from-fishing-village-side.js";
+import { distance as segments95 } from "./segments/the-clyde-kicker.js";
+import { distance as segments96 } from "./segments/the-grade-kom.js";
+import { distance as segments97 } from "./segments/the-hill-kom.js";
+import { distance as segments98 } from "./segments/the-peristyle-sprint.js";
+import { distance as segments99 } from "./segments/the-peristyle-sprint-rev.js";
+import { distance as segments100 } from "./segments/tidepool-sprint.js";
+import { distance as segments101 } from "./segments/tidepool-sprint-rev.js";
+import { distance as segments102 } from "./segments/titans-grove-kom.js";
+import { distance as segments103 } from "./segments/titans-grove-kom-rev.js";
+import { distance as segments104 } from "./segments/tower-sprint.js";
+import { distance as segments105 } from "./segments/tower-sprint-rev.js";
+import { distance as segments106 } from "./segments/ventoux-kom.js";
+import { distance as segments107 } from "./segments/village-sprint.js";
+import { distance as segments108 } from "./segments/village-sprint-rev.js";
+import { distance as segments109 } from "./segments/volcano-circuit.js";
+import { distance as segments110 } from "./segments/volcano-circuit-rev.js";
+import { distance as segments111 } from "./segments/volcano-kom.js";
+import { distance as segments112 } from "./segments/watopia-sprint.js";
+import { distance as segments113 } from "./segments/watopia-sprint-rev.js";
+import { distance as segments114 } from "./segments/woodland-sprint.js";
+import { distance as segments115 } from "./segments/woodland-sprint-rev.js";
+import { distance as segments116 } from "./segments/yorkshire-kom.js";
+import { distance as segments117 } from "./segments/yorkshire-kom-rev.js";
+import { distance as segments118 } from "./segments/yorkshire-sprint.js";
+import { distance as segments119 } from "./segments/yorkshire-sprint-rev.js";
+import { distance as segments120 } from "./segments/zwift-kom.js";
+import { distance as segments121 } from "./segments/zwift-kom-rev.js";
 export const segments: Readonly<
   Record<string, StreamData["distance"] | undefined>
 > = {
   "23rd-st": segments0,
   "23rd-st-rev": segments1,
-  "alley-sprint": segments2,
-  "alley-sprint-rev": segments3,
-  "alpe-du-zwift": segments4,
-  "aqueduc-kom": segments5,
-  "aqueduc-kom-rev": segments6,
-  "ballon-sprint-rev": segments7,
-  "boardwalk-sprint-rev": segments8,
-  "bologna-tt": segments9,
-  "box-hill": segments10,
-  "breakaway-brae": segments11,
-  "breakaway-brae-rev": segments12,
-  "broad-st": segments13,
-  "brooklyn-bridge-kom": segments14,
-  "castle-kom": segments15,
-  "center-sprint": segments16,
-  "center-sprint-rev": segments17,
-  "central-park-loop-rev": segments18,
-  "champs-elysees": segments19,
-  "champs-elysees-rev": segments20,
-  "crit-city": segments21,
-  "crit-city-rev": segments22,
-  "eglise-sprint": segments23,
-  "epic-kom": segments24,
-  "epic-kom-rev": segments25,
-  "fox-hill": segments26,
-  "fuego-flats": segments27,
-  "fuego-flats-rev": segments28,
-  "hilly-loop": segments29,
-  "hilly-loop-rev": segments30,
-  "innsbruck-kom": segments31,
-  "innsbruck-kom-rev": segments32,
-  "innsbruck-uci-lap": segments33,
-  "itza-kom": segments34,
-  "jarvis-kom": segments35,
-  "jarvis-kom-rev": segments36,
-  "jarvis-lap": segments37,
-  "jarvis-lap-rev": segments38,
-  "jarvis-sprint": segments39,
-  "jarvis-sprint-rev": segments40,
-  "jungle-loop": segments41,
-  "jungle-loop-rev": segments42,
-  "keith-hill": segments43,
-  "leith-hill": segments44,
-  "london-loop": segments45,
-  "london-sprint": segments46,
-  "london-sprint-rev": segments47,
-  "lutece-sprint": segments48,
-  "lutece-sprint-rev": segments49,
-  "manhattan-sprint": segments50,
-  "manhattan-sprint-rev": segments51,
-  "marina-sprint": segments52,
-  "mayan-mountainside-kom": segments53,
-  "monceau-sprint": segments54,
-  "montmartre-kom": segments55,
-  "new-york-kom": segments56,
-  "new-york-kom-rev": segments57,
-  "petit-kom": segments58,
-  "radio-tower-kom": segments59,
-  "railway-sprint": segments60,
-  "richmond-kom": segments61,
-  "richmond-kom-rev": segments62,
-  "richmond-sprint": segments63,
-  "richmond-uci-course": segments64,
-  "rooftop-kom": segments65,
-  "sgurr-summit-north": segments66,
-  "sgurr-summit-south": segments67,
-  "tchou-tchou-sprint": segments68,
-  "temple-kom-from-castle-side": segments69,
-  "temple-kom-from-fishing-village-side": segments70,
-  "the-grade-kom": segments71,
-  "the-hill-kom": segments72,
-  "the-peristyle-sprint": segments73,
-  "the-peristyle-sprint-rev": segments74,
-  "tidepool-sprint-rev": segments75,
-  "titans-grove-kom": segments76,
-  "titans-grove-kom-rev": segments77,
-  "tower-sprint": segments78,
-  "ventoux-kom": segments79,
-  "volcano-circuit": segments80,
-  "volcano-circuit-rev": segments81,
-  "volcano-kom": segments82,
-  "watopia-sprint": segments83,
-  "woodland-sprint": segments84,
-  "yorkshire-kom": segments85,
-  "yorkshire-kom-rev": segments86,
-  "yorkshire-sprint-rev": segments87,
-  "zwift-kom": segments88,
-  "zwift-kom-rev": segments89,
+  "acropolis-sprint": segments2,
+  "acropolis-sprint-rev": segments3,
+  "alley-sprint": segments4,
+  "alley-sprint-rev": segments5,
+  "alpe-du-zwift": segments6,
+  "aqueduc-kom": segments7,
+  "aqueduc-kom-rev": segments8,
+  "ballon-sprint": segments9,
+  "ballon-sprint-rev": segments10,
+  "boardwalk-sprint": segments11,
+  "boardwalk-sprint-rev": segments12,
+  "bologna-tt": segments13,
+  "box-hill": segments14,
+  "breakaway-brae": segments15,
+  "breakaway-brae-rev": segments16,
+  "broad-st": segments17,
+  "brooklyn-bridge-kom": segments18,
+  "castle-kom": segments19,
+  "castle-park-sprint": segments20,
+  "castle-park-sprint-rev": segments21,
+  "center-sprint": segments22,
+  "center-sprint-rev": segments23,
+  "central-park-loop-rev": segments24,
+  "champions-sprint": segments25,
+  "champs-elysees": segments26,
+  "champs-elysees-rev": segments27,
+  "country-sprint": segments28,
+  "crit-city": segments29,
+  "crit-city-rev": segments30,
+  "eglise-sprint": segments31,
+  "epic-kom": segments32,
+  "epic-kom-rev": segments33,
+  "fox-hill": segments34,
+  "fuego-flats": segments35,
+  "fuego-flats-rev": segments36,
+  "hilly-loop": segments37,
+  "hilly-loop-rev": segments38,
+  "innsbruck-kom": segments39,
+  "innsbruck-kom-rev": segments40,
+  "innsbruck-sprint": segments41,
+  "innsbruck-sprint-rev": segments42,
+  "innsbruck-uci-lap": segments43,
+  "itza-kom": segments44,
+  "jarvis-kom": segments45,
+  "jarvis-kom-rev": segments46,
+  "jarvis-lap": segments47,
+  "jarvis-lap-rev": segments48,
+  "jarvis-sprint": segments49,
+  "jarvis-sprint-rev": segments50,
+  "jungle-loop": segments51,
+  "jungle-loop-rev": segments52,
+  "keith-hill": segments53,
+  "leith-hill": segments54,
+  "london-loop": segments55,
+  "london-sprint": segments56,
+  "london-sprint-rev": segments57,
+  "lutece-sprint": segments58,
+  "lutece-sprint-rev": segments59,
+  "manhattan-sprint": segments60,
+  "manhattan-sprint-rev": segments61,
+  "marina-sprint": segments62,
+  "marina-sprint-rev": segments63,
+  "mayan-mountainside-kom": segments64,
+  "monceau-sprint": segments65,
+  "montmartre-kom": segments66,
+  "new-york-kom": segments67,
+  "new-york-kom-rev": segments68,
+  "new-york-sprint": segments69,
+  "new-york-sprint-rev": segments70,
+  "pave-sprint": segments71,
+  "pave-sprint-rev": segments72,
+  "petit-kom": segments73,
+  prime: segments74,
+  "prime-rev": segments75,
+  "radio-tower-kom": segments76,
+  "railway-sprint": segments77,
+  "richmond-kom": segments78,
+  "richmond-kom-rev": segments79,
+  "richmond-sprint": segments80,
+  "richmond-sprint-rev": segments81,
+  "richmond-uci-course": segments82,
+  "rooftop-kom": segments83,
+  "sasquatch-sprint": segments84,
+  "sasquatch-sprint-rev": segments85,
+  "sgurr-summit-north": segments86,
+  "sgurr-summit-south": segments87,
+  "shisa-sprint": segments88,
+  "shisa-sprint-rev": segments89,
+  "stoneway-sprint": segments90,
+  "stoneway-sprint-rev": segments91,
+  "tchou-tchou-sprint": segments92,
+  "temple-kom-from-castle-side": segments93,
+  "temple-kom-from-fishing-village-side": segments94,
+  "the-clyde-kicker": segments95,
+  "the-grade-kom": segments96,
+  "the-hill-kom": segments97,
+  "the-peristyle-sprint": segments98,
+  "the-peristyle-sprint-rev": segments99,
+  "tidepool-sprint": segments100,
+  "tidepool-sprint-rev": segments101,
+  "titans-grove-kom": segments102,
+  "titans-grove-kom-rev": segments103,
+  "tower-sprint": segments104,
+  "tower-sprint-rev": segments105,
+  "ventoux-kom": segments106,
+  "village-sprint": segments107,
+  "village-sprint-rev": segments108,
+  "volcano-circuit": segments109,
+  "volcano-circuit-rev": segments110,
+  "volcano-kom": segments111,
+  "watopia-sprint": segments112,
+  "watopia-sprint-rev": segments113,
+  "woodland-sprint": segments114,
+  "woodland-sprint-rev": segments115,
+  "yorkshire-kom": segments116,
+  "yorkshire-kom-rev": segments117,
+  "yorkshire-sprint": segments118,
+  "yorkshire-sprint-rev": segments119,
+  "zwift-kom": segments120,
+  "zwift-kom-rev": segments121,
 };

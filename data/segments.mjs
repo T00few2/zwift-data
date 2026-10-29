@@ -4,6 +4,8 @@ export const segments = [
     slug: "ballon-sprint",
     type: "sprint",
     world: "france",
+    stravaSegmentId: 38169142,
+    stravaSegmentUrl: "https://www.strava.com/segments/38169142",
     distance: 0.212,
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/france/segment/ballon-sprint/forward",
@@ -71,6 +73,8 @@ export const segments = [
     slug: "innsbruck-sprint",
     type: "sprint",
     world: "innsbruck",
+    stravaSegmentId: 38147733,
+    stravaSegmentUrl: "https://www.strava.com/segments/38147733",
     distance: 0.3,
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/innsbruck/segment/sprint/forward",
@@ -81,6 +85,8 @@ export const segments = [
     slug: "innsbruck-sprint-rev",
     type: "sprint",
     world: "innsbruck",
+    stravaSegmentId: 38147727,
+    stravaSegmentUrl: "https://www.strava.com/segments/38147727",
     distance: 0.2,
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/innsbruck/segment/sprint/reverse",
@@ -174,6 +180,8 @@ export const segments = [
     slug: "marina-sprint-rev",
     type: "sprint",
     world: "france",
+    stravaSegmentId: 38169137,
+    stravaSegmentUrl: "https://www.strava.com/segments/38169137",
     distance: 0.193,
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/france/segment/marina-sprint-reverse/reverse",
@@ -196,6 +204,8 @@ export const segments = [
     slug: "richmond-sprint-rev",
     type: "sprint",
     world: "richmond",
+    stravaSegmentId: 38170232,
+    stravaSegmentUrl: "https://www.strava.com/segments/38170232",
     distance: 0.203,
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/richmond/segment/sprint/reverse",
@@ -206,6 +216,8 @@ export const segments = [
     slug: "new-york-sprint",
     type: "sprint",
     world: "new-york",
+    stravaSegmentId: 38152497,
+    stravaSegmentUrl: "https://www.strava.com/segments/38152497",
     distance: 0.15,
     avgIncline: -4.3,
     whatsOnZwiftUrl:
@@ -217,6 +229,8 @@ export const segments = [
     slug: "new-york-sprint-rev",
     type: "climb",
     world: "new-york",
+    stravaSegmentId: 38152502,
+    stravaSegmentUrl: "https://www.strava.com/segments/38152502",
     distance: 0.23,
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/new-york/segment/ny-sprint/reverse",
@@ -227,6 +241,8 @@ export const segments = [
     slug: "pave-sprint",
     type: "sprint",
     world: "france",
+    stravaSegmentId: 24710565,
+    stravaSegmentUrl: "https://www.strava.com/segments/24710565",
     distance: 0.333,
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/france/segment/pave-sprint/forward",
@@ -237,6 +253,8 @@ export const segments = [
     slug: "pave-sprint-rev",
     type: "sprint",
     world: "france",
+    stravaSegmentId: 24710570,
+    stravaSegmentUrl: "https://www.strava.com/segments/24710570",
     distance: 0.334,
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/france/segment/pave-sprint-reverse/reverse",
@@ -283,6 +301,8 @@ export const segments = [
     slug: "watopia-sprint-rev",
     type: "sprint",
     world: "watopia",
+    stravaSegmentId: 42371196,
+    stravaSegmentUrl: "https://www.strava.com/segments/42371196",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/watopia/segment/sprint/reverse",
     distance: 0.2,
@@ -293,6 +313,8 @@ export const segments = [
     slug: "yorkshire-sprint",
     type: "sprint",
     world: "yorkshire",
+    stravaSegmentId: 38147765,
+    stravaSegmentUrl: "https://www.strava.com/segments/38147765",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/yorkshire/segment/yorkshire-sprint/forward",
     distance: 0.25,
@@ -824,6 +846,8 @@ export const segments = [
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/crit-city/segment/prime/forward",
     world: "crit-city",
+    stravaSegmentId: 38170254,
+    stravaSegmentUrl: "https://www.strava.com/segments/38170254",
     zwifterBikesPath: "prime-kom",
   },
   {
@@ -834,6 +858,8 @@ export const segments = [
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/crit-city/segment/prime/reverse",
     world: "crit-city",
+    stravaSegmentId: 38170270,
+    stravaSegmentUrl: "https://www.strava.com/segments/38170270",
     zwifterBikesPath: "prime-sprint",
   },
   {
@@ -866,6 +892,8 @@ export const segments = [
     type: "sprint",
     distance: 0.146,
     world: "makuri-islands",
+    stravaSegmentId: 38168940,
+    stravaSegmentUrl: "https://www.strava.com/segments/38168940",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/makuri-islands/segment/country-sprint/forward",
     zwifterBikesPath: "country-sprint",
@@ -890,6 +918,8 @@ export const segments = [
     distance: 0.15,
     avgIncline: 0.99,
     world: "makuri-islands",
+    stravaSegmentId: 38168897,
+    stravaSegmentUrl: "https://www.strava.com/segments/38168897",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/makuri-islands/segment/village-sprint/forward",
     zwifterBikesPath: "village-sprint",
@@ -952,6 +982,8 @@ export const segments = [
     type: "sprint",
     distance: 0.31,
     world: "makuri-islands",
+    stravaSegmentId: 38168840,
+    stravaSegmentUrl: "https://www.strava.com/segments/38168840",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/makuri-islands/segment/tower-sprint/reverse",
     zwifterBikesPath: "tower-sprint-reverse",
@@ -962,6 +994,8 @@ export const segments = [
     distance: 0.32,
     type: "sprint",
     world: "makuri-islands",
+    stravaSegmentId: 38168855,
+    stravaSegmentUrl: "https://www.strava.com/segments/38168855",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/makuri-islands/segment/castle-park-sprint/forward",
     zwifterBikesPath: "castle-park-sprint",
@@ -972,6 +1006,8 @@ export const segments = [
     distance: 0.32,
     type: "sprint",
     world: "makuri-islands",
+    stravaSegmentId: 38168847,
+    stravaSegmentUrl: "https://www.strava.com/segments/38168847",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/makuri-islands/segment/castle-park-sprint/reverse",
     zwifterBikesPath: "castle-park-sprint-reverse",
@@ -1018,6 +1054,8 @@ export const segments = [
     distance: 0.24,
     type: "sprint",
     world: "makuri-islands",
+    stravaSegmentId: 38169040,
+    stravaSegmentUrl: "https://www.strava.com/segments/38169040",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/makuri-islands/segment/boardwalk-sprint/forward",
   },
@@ -1027,6 +1065,8 @@ export const segments = [
     distance: 0.31,
     type: "sprint",
     world: "makuri-islands",
+    stravaSegmentId: 38169050,
+    stravaSegmentUrl: "https://www.strava.com/segments/38169050",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/makuri-islands/segment/tidepool-sprint/forward",
   },
@@ -1036,6 +1076,8 @@ export const segments = [
     distance: 0.29,
     type: "sprint",
     world: "makuri-islands",
+    stravaSegmentId: 38168992,
+    stravaSegmentUrl: "https://www.strava.com/segments/38168992",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/makuri-islands/segment/shisa-sprint/reverse",
   },
@@ -1045,6 +1087,8 @@ export const segments = [
     distance: 0.28,
     type: "sprint",
     world: "makuri-islands",
+    stravaSegmentId: 38169009,
+    stravaSegmentUrl: "https://www.strava.com/segments/38169009",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/makuri-islands/segment/shisa-sprint/forward",
   },
@@ -1054,6 +1098,8 @@ export const segments = [
     distance: 0.14,
     type: "sprint",
     world: "makuri-islands",
+    stravaSegmentId: 38168903,
+    stravaSegmentUrl: "https://www.strava.com/segments/38168903",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/makuri-islands/segment/village-sprint/reverse",
     zwifterBikesPath: "village-sprint-reverse",
@@ -1101,6 +1147,8 @@ export const segments = [
     avgIncline: 3.6,
     type: "climb",
     world: "scotland",
+    stravaSegmentId: 38170244,
+    stravaSegmentUrl: "https://www.strava.com/segments/38170244",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/scotland/segment/the-clyde-kicker/forward",
     zwifterBikesPath: "",
@@ -1111,6 +1159,8 @@ export const segments = [
     distance: 0.2,
     type: "sprint",
     world: "scotland",
+    stravaSegmentId: 38170243,
+    stravaSegmentUrl: "https://www.strava.com/segments/38170243",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/scotland/segment/champion-s-sprint/forward",
     zwifterBikesPath: "the-clyde-kicker",
@@ -1148,6 +1198,8 @@ export const segments = [
     avgIncline: 0.8,
     type: "sprint",
     world: "watopia",
+    stravaSegmentId: 38152286,
+    stravaSegmentUrl: "https://www.strava.com/segments/38152286",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/watopia/segment/stoneway-sprint/forward",
   },
@@ -1158,6 +1210,8 @@ export const segments = [
     avgIncline: 0.4,
     type: "sprint",
     world: "watopia",
+    stravaSegmentId: 38152293,
+    stravaSegmentUrl: "https://www.strava.com/segments/38152293",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/watopia/segment/stoneway-sprint/reverse",
   },
@@ -1168,6 +1222,8 @@ export const segments = [
     avgIncline: 0.7,
     type: "sprint",
     world: "watopia",
+    stravaSegmentId: 38152309,
+    stravaSegmentUrl: "https://www.strava.com/segments/38152309",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/watopia/segment/acropolis-sprint/forward",
   },
@@ -1178,6 +1234,8 @@ export const segments = [
     avgIncline: -1.1,
     type: "sprint",
     world: "watopia",
+    stravaSegmentId: 38152312,
+    stravaSegmentUrl: "https://www.strava.com/segments/38152312",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/watopia/segment/acropolis-sprint/reverse",
   },
@@ -1188,6 +1246,8 @@ export const segments = [
     avgIncline: 0.3,
     type: "sprint",
     world: "watopia",
+    stravaSegmentId: 38152327,
+    stravaSegmentUrl: "https://www.strava.com/segments/38152327",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/watopia/segment/sasquatch-sprint/forward",
   },
@@ -1198,6 +1258,8 @@ export const segments = [
     avgIncline: -0.9,
     type: "sprint",
     world: "watopia",
+    stravaSegmentId: 38152330,
+    stravaSegmentUrl: "https://www.strava.com/segments/38152330",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/watopia/segment/sasquatch-sprint/reverse",
   },
@@ -1220,6 +1282,8 @@ export const segments = [
     avgIncline: -1.6,
     type: "sprint",
     world: "watopia",
+    stravaSegmentId: 38152352,
+    stravaSegmentUrl: "https://www.strava.com/segments/38152352",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/watopia/segment/woodland-sprint/reverse",
   },

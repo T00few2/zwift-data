@@ -538,7 +538,7 @@ export const routes = [
   {
     id: 1919980508,
     slug: "park-perimeter-loop",
-    segments: ["new-york-sprint-rev"],
+    segments: ["new-york-sprint"],
     stravaSegmentId: 19170651,
     zwiftInsiderPath: "park-perimeter-loop",
     whatsOnZwiftUrl:
@@ -1194,7 +1194,7 @@ export const routes = [
   {
     id: 2422779354,
     slug: "laguardia-loop",
-    segments: ["new-york-kom"],
+    segments: ["new-york-kom", "new-york-sprint"],
     experience: null,
     stravaSegmentId: 19179237,
     zwiftInsiderPath: "laguardia-loop",
@@ -1292,7 +1292,7 @@ export const routes = [
   {
     id: 948831673,
     slug: "richmond-rollercoaster",
-    segments: ["richmond-sprint"],
+    segments: ["richmond-sprint", "richmond-sprint-rev"],
     experience: null,
     stravaSegmentId: 22900025,
     zwiftInsiderPath: "richmond-rollercoaster",
@@ -1625,7 +1625,7 @@ export const routes = [
   {
     id: 3774003351,
     slug: "laguardia-loop-reverse",
-    segments: ["new-york-sprint"],
+    segments: ["new-york-sprint-rev"],
     stravaSegmentId: 20425705,
     zwiftInsiderPath: "laguardia-loop-reverse",
     whatsOnZwiftUrl:
@@ -1757,7 +1757,7 @@ export const routes = [
   {
     id: 2436095601,
     slug: "2022-cycling-esports-world-championships-route",
-    segments: ["new-york-sprint-rev", "new-york-kom"],
+    segments: ["new-york-sprint", "new-york-kom"],
     stravaSegmentId: 30601050,
     zwiftInsiderPath: "2022-cycling-esports-world-championships-route",
     zwifterBikesPath: "2022-cycling-esports-world-championships-route",
@@ -1951,8 +1951,8 @@ export const routes = [
     id: 576953930,
     slug: "country-to-coastal",
     segments: [
-      "village-sprint-rev",
-      "country-sprint-rev",
+      "village-sprint",
+      "country-sprint",
       "shisa-sprint-rev",
       "tidepool-sprint",
     ],
@@ -1966,8 +1966,8 @@ export const routes = [
     id: 890800649,
     slug: "makuri-40",
     segments: [
-      "village-sprint-rev",
-      "country-sprint-rev",
+      "village-sprint",
+      "country-sprint",
       "alley-sprint-rev",
       "castle-park-sprint",
       "shisa-sprint",
@@ -2162,6 +2162,7 @@ export const routes = [
       "watopia-sprint-rev",
       "zwift-kom-rev",
       "watopia-sprint",
+      "stoneway-sprint-rev",
     ],
     stravaSegmentId: 35696990,
     whatsOnZwiftUrl:
@@ -2261,6 +2262,7 @@ export const routes = [
   {
     id: 3706527503,
     slug: "castle-crit",
+    segments: ["village-sprint-rev"],
     stravaSegmentId: 30326079,
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/makuri-islands/route/castle-crit",
@@ -2270,6 +2272,7 @@ export const routes = [
   {
     id: 1033940053,
     slug: "castle-crit-run",
+    segments: ["village-sprint-rev"],
     stravaSegmentId: 30326079,
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/makuri-islands/route/castle-crit-run",
@@ -2308,6 +2311,7 @@ export const routes = [
       "watopia-sprint-rev",
       "zwift-kom-rev",
       "watopia-sprint",
+      "stoneway-sprint-rev",
     ],
     stravaSegmentId: 36343341,
     whatsOnZwiftUrl:
@@ -2367,7 +2371,7 @@ export const routes = [
   {
     id: 226950646,
     slug: "mayan-san-remo",
-    segments: ["mayan-mountainside-kom", "itza-kom"],
+    segments: ["mayan-mountainside-kom", "itza-kom", "acropolis-sprint-rev"],
     stravaSegmentId: 37098607,
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/watopia/route/mayan-san-remo",
@@ -2529,7 +2533,7 @@ export const routes = [
       "railway-sprint",
       "castle-kom",
       "temple-kom-from-fishing-village-side",
-      "shisa-sprint",
+      "shisa-sprint-rev",
     ],
     stravaSegmentId: 37300447,
     whatsOnZwiftUrl:
@@ -2842,6 +2846,7 @@ export const routes = [
   {
     id: 2826340040,
     slug: "outer-scotland",
+    segments: ["the-clyde-kicker", "champions-sprint"],
     stravaSegmentId: 34255102,
     zwiftInsiderPath: "outer-scotland",
     whatsOnZwiftUrl:
@@ -2921,6 +2926,7 @@ export const routes = [
     slug: "danger-noodle",
     stravaSegmentId: 38326016,
     segments: ["titans-grove-kom", "titans-grove-kom-rev"],
+    invalidSegments: ["watopia-sprint-rev"],
     zwiftInsiderPath: "danger-noodle",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/watopia/route/danger-noodle",
@@ -2965,6 +2971,10 @@ export const routes = [
       "ballon-sprint-rev",
       "aqueduc-kom",
       "marina-sprint",
+      "pave-sprint-rev",
+      "marina-sprint-rev",
+      "ballon-sprint",
+      "pave-sprint",
     ],
     zwiftInsiderPath: "sacre-bleu",
     zwifterBikesPath: "sacre-bleu",
@@ -2973,7 +2983,12 @@ export const routes = [
     id: 319138658,
     slug: "three-musketeers",
     stravaSegmentId: 38873256,
-    segments: ["aqueduc-kom-rev", "ballon-sprint-rev"],
+    segments: [
+      "aqueduc-kom-rev",
+      "ballon-sprint-rev",
+      "pave-sprint-rev",
+      "marina-sprint-rev",
+    ],
     zwiftInsiderPath: "three-musketeers",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/france/route/three-musketeers",
@@ -2998,6 +3013,7 @@ export const routes = [
   {
     id: 2143464829,
     slug: "bon-voyage",
+    segments: ["pave-sprint-rev"],
     stravaSegmentId: 39240977,
     zwiftInsiderPath: "bon-voyage",
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/france/route/bon-voyage",
@@ -3015,7 +3031,7 @@ export const routes = [
     id: 1538375239,
     slug: "gentil-8",
     stravaSegmentId: 38856602,
-    segments: ["petit-kom"],
+    segments: ["petit-kom", "ballon-sprint"],
     zwiftInsiderPath: "gentil-8",
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/france/route/gentil-8",
     zwifterBikesPath: "gentil-8",
@@ -3044,7 +3060,7 @@ export const routes = [
     id: 1793712753,
     slug: "hell-of-the-north",
     stravaSegmentId: 38859707,
-    segments: ["petit-kom"],
+    segments: ["petit-kom", "ballon-sprint"],
     zwiftInsiderPath: "hell-of-the-north",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/france/route/hell-of-the-north",
@@ -3090,7 +3106,13 @@ export const routes = [
     id: 3974965857,
     slug: "knights-of-the-roundabout",
     stravaSegmentId: 38859646,
-    segments: ["aqueduc-kom", "petit-kom"],
+    segments: [
+      "aqueduc-kom",
+      "petit-kom",
+      "ballon-sprint",
+      "pave-sprint",
+      "marina-sprint-rev",
+    ],
     zwiftInsiderPath: "knights-of-the-roundabout",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/france/route/knights-of-the-roundabout",
@@ -3540,6 +3562,7 @@ export const routes = [
       "watopia-sprint-rev",
       "sasquatch-sprint-rev",
       "the-grade-kom",
+      "woodland-sprint-rev",
     ],
     zwiftInsiderPath: "three-step-sisters",
   },
@@ -3573,7 +3596,7 @@ export const routes = [
     id: 2521625692,
     slug: "yumezi-grit",
     zwifterBikesPath: "yumezi-grit",
-    segments: ["village-sprint-rev"],
+    segments: ["village-sprint"],
     stravaSegmentId: 41092576,
     zwiftInsiderPath: "yumezi-grit",
     whatsOnZwiftUrl:
@@ -3914,7 +3937,7 @@ export const routes = [
     id: 4092230492,
     slug: "urumaze",
     zwifterBikesPath: "urumaze",
-    segments: ["tower-sprint", "tidepool-sprint-rev", "shisa-sprint-rev"],
+    segments: ["tower-sprint", "tidepool-sprint-rev", "shisa-sprint"],
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/makuri-islands/route/urumaze",
     zwiftInsiderPath: "urumaze",
